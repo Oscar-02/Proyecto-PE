@@ -18,6 +18,8 @@ namespace Proyecto_PE_Ciclo_I
             StartPosition = FormStartPosition.CenterScreen;
             info_Button.Image = new Bitmap(SystemIcons.Information.ToBitmap(), 23, 23);
             github_Button.Image = new Bitmap(Proyecto_PE_Ciclo_I.Properties.Resources.github_icon, 20,20);
+            cash_Button.Image = new Bitmap(Proyecto_PE_Ciclo_I.Properties.Resources.cashier, 75, 75);
+            inventory_Button.Image = new Bitmap(Proyecto_PE_Ciclo_I.Properties.Resources.inventory, 50, 50);
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -33,6 +35,11 @@ namespace Proyecto_PE_Ciclo_I
         private void info_Button_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void github_Button_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/Oscar-02/Proyecto-PE");
         }
     }
 }

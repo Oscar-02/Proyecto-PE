@@ -73,6 +73,16 @@ namespace Proyecto_PE_Ciclo_I.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cashier {
+            get {
+                object obj = ResourceManager.GetObject("cashier", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap github_icon {
             get {
                 object obj = ResourceManager.GetObject("github_icon", resourceCulture);
@@ -83,9 +93,9 @@ namespace Proyecto_PE_Ciclo_I.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap github_icon1 {
+        internal static System.Drawing.Bitmap inventory {
             get {
-                object obj = ResourceManager.GetObject("github_icon1", resourceCulture);
+                object obj = ResourceManager.GetObject("inventory", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
