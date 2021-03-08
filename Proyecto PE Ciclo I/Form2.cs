@@ -41,5 +41,10 @@ namespace Proyecto_PE_Ciclo_I
         {
             System.Diagnostics.Process.Start("https://github.com/Oscar-02/Proyecto-PE");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
