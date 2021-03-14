@@ -26,8 +26,8 @@ namespace Proyecto_PE_Ciclo_I
         private void timer1_Tick(object sender, EventArgs e)
         {
             timer1.Stop();
-            Form form2 = new Form2();
-            form2.Show();
+            Form form3 = new Form3();
+            form3.Show();
             this.Hide();
         }
 
