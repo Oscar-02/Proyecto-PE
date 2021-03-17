@@ -40,6 +40,7 @@ namespace Proyecto_PE_Ciclo_I
             this.lastBill_Button = new System.Windows.Forms.Button();
             this.invlocation_Button = new System.Windows.Forms.Button();
             this.logout_Button = new System.Windows.Forms.Button();
+            this.exit_Button = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -140,13 +141,24 @@ namespace Proyecto_PE_Ciclo_I
             // 
             // logout_Button
             // 
-            this.logout_Button.Location = new System.Drawing.Point(333, 98);
+            this.logout_Button.Location = new System.Drawing.Point(378, 98);
             this.logout_Button.Name = "logout_Button";
-            this.logout_Button.Size = new System.Drawing.Size(115, 47);
+            this.logout_Button.Size = new System.Drawing.Size(70, 47);
             this.logout_Button.TabIndex = 9;
             this.logout_Button.Text = "Cerrar Sesion";
             this.logout_Button.UseVisualStyleBackColor = true;
             this.logout_Button.Click += new System.EventHandler(this.logout_Button_Click);
+            // 
+            // exit_Button
+            // 
+            this.exit_Button.ForeColor = System.Drawing.Color.Red;
+            this.exit_Button.Location = new System.Drawing.Point(378, 48);
+            this.exit_Button.Name = "exit_Button";
+            this.exit_Button.Size = new System.Drawing.Size(70, 47);
+            this.exit_Button.TabIndex = 10;
+            this.exit_Button.Text = "SALIR";
+            this.exit_Button.UseVisualStyleBackColor = true;
+            this.exit_Button.Click += new System.EventHandler(this.exit_Button_Click);
             // 
             // Form2
             // 
@@ -154,6 +166,7 @@ namespace Proyecto_PE_Ciclo_I
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
             this.ClientSize = new System.Drawing.Size(460, 262);
+            this.Controls.Add(this.exit_Button);
             this.Controls.Add(this.logout_Button);
             this.Controls.Add(this.invlocation_Button);
             this.Controls.Add(this.lastBill_Button);
@@ -188,5 +201,6 @@ namespace Proyecto_PE_Ciclo_I
         private System.Windows.Forms.Button lastBill_Button;
         private System.Windows.Forms.Button invlocation_Button;
         private System.Windows.Forms.Button logout_Button;
+        private System.Windows.Forms.Button exit_Button;
     }
 }

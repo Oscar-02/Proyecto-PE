@@ -54,7 +54,8 @@ namespace Proyecto_PE_Ciclo_I
 
         private void info_Button_Click(object sender, EventArgs e)
         {
-
+            Form form4 = new Form4();
+            form4.Show();
         }
 
         private void github_Button_Click(object sender, EventArgs e)
@@ -64,7 +65,8 @@ namespace Proyecto_PE_Ciclo_I
 
         private void invlocation_Button_Click(object sender, EventArgs e)
         {
-
+            string ruta = "product.txt";
+            Process.Start("notepad.exe", ruta);
         }
 
         private void logout_Button_Click(object sender, EventArgs e)
@@ -79,10 +81,15 @@ namespace Proyecto_PE_Ciclo_I
             string ruta = "C:\\facturas";
             if (!Directory.Exists(ruta))
             {
-                MessageBox.Show("La ruta de guardado de las facturas no existe.\nEs muy necesario que exista, por lo tanto, se esta creando.", "",MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("La ruta de guardado de las facturas no existe.\nEs muy necesario que exista, por lo tanto, esta se creará.", "Abrir ubicacion de facturas",MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 DirectoryInfo di = Directory.CreateDirectory(ruta);
             }
             Process.Start("explorer.exe", ruta);
+        }
+
+        private void exit_Button_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
