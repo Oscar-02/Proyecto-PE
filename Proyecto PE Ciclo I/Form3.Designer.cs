@@ -51,6 +51,7 @@ namespace Proyecto_PE_Ciclo_I
             this.welcome_Label.Size = new System.Drawing.Size(242, 48);
             this.welcome_Label.TabIndex = 1;
             this.welcome_Label.Text = "Bienvenido";
+            this.welcome_Label.Click += new System.EventHandler(this.welcome_Label_Click);
             // 
             // login_Button
             // 

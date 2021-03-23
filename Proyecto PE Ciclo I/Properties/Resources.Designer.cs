@@ -141,15 +141,6 @@ namespace Proyecto_PE_Ciclo_I.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a .
-        /// </summary>
-        public static string product {
-            get {
-                return ResourceManager.GetString("product", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
         public static System.Drawing.Bitmap proyect_form1 {
@@ -176,21 +167,6 @@ namespace Proyecto_PE_Ciclo_I.Properties {
             get {
                 object obj = ResourceManager.GetObject("udb", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a 0,,0
-        ///1001,Oscar Cañas.Canas13-7
-        ///1002,Rebeca Alvarenga.Rebe123
-        ///2001,Oscar Cañas.Canas13-7
-        ///2002,Rebeca Alvarenga.Rebe123
-        ///200x,Usuario1.12345
-        ///.
-        /// </summary>
-        public static string users {
-            get {
-                return ResourceManager.GetString("users", resourceCulture);
             }
         }
     }

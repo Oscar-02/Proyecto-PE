@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Reflection;
 
 namespace Proyecto_PE_Ciclo_I
 {
@@ -29,6 +30,11 @@ namespace Proyecto_PE_Ciclo_I
             }
         }
 
+        private void welcome_Label_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void pass_Box_Enter(object sender, EventArgs e)
         {
         }
@@ -46,7 +52,8 @@ namespace Proyecto_PE_Ciclo_I
 
         private void login_Button_Click(object sender, EventArgs e)
         {
-            StreamReader Reader = new StreamReader("users.txt", true);
+            string executableLocation = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            StreamReader Reader = new StreamReader(Path.Combine(Application.StartupPath, @"databases\\users.txt"), true);
             id = id_Box.Text;
             password = pass_Box.Text;
             bool contains = false;
