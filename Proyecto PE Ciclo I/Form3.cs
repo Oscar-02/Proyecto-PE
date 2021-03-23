@@ -52,7 +52,6 @@ namespace Proyecto_PE_Ciclo_I
 
         private void login_Button_Click(object sender, EventArgs e)
         {
-            string executableLocation = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             StreamReader Reader = new StreamReader(Path.Combine(Application.StartupPath, @"databases\\users.txt"), true);
             id = id_Box.Text;
             password = pass_Box.Text;

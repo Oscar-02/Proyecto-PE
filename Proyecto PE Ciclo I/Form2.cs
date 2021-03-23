@@ -65,7 +65,7 @@ namespace Proyecto_PE_Ciclo_I
 
         private void invlocation_Button_Click(object sender, EventArgs e)
         {
-            string ruta = "product.txt";
+            string ruta = Path.Combine(Application.StartupPath, @"databases\\product.txt");
             Process.Start("notepad.exe", ruta);
         }
 
@@ -90,6 +90,11 @@ namespace Proyecto_PE_Ciclo_I
         private void exit_Button_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void lastBill_Button_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

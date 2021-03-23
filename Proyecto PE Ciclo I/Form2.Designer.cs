@@ -128,6 +128,7 @@ namespace Proyecto_PE_Ciclo_I
             this.lastBill_Button.TabIndex = 7;
             this.lastBill_Button.Text = "Ver la Ultima Factura Guardada";
             this.lastBill_Button.UseVisualStyleBackColor = true;
+            this.lastBill_Button.Click += new System.EventHandler(this.lastBill_Button_Click);
             // 
             // invlocation_Button
             // 
