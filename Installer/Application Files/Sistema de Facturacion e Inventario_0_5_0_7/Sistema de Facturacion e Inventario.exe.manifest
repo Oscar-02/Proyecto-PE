@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Sistema de Facturacion e Inventario.exe" version="0.5.0.7" publicKeyToken="82f92a72b37e2302" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="favicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Sistema de Facturacion e Inventario" version="0.5.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Sistema de Facturacion e Inventario.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Opciones del manifiesto UAC
+             Si quiere cambiar el nivel del Control de cuentas de usuario de Windows reemplace el 
+             nodo requestedExecutionLevel por uno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Especificar el elemento requestedExecutionLevel deshabilitará la virtualización de archivos y registros. 
+            Quite este elemento si la aplicación necesita esta virtualización para la compatibilidad
+            con versiones anteriores.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sistema de Facturacion e Inventario.exe" size="638432">
+      <assemblyIdentity name="Sistema de Facturacion e Inventario" version="0.5.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>F+odFVOxvtjHC+eXtj2bTmiK+v1qb4DPos9Y85r/GXg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="databases\product.txt" size="0">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="databases\users.txt" size="154">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7SX4qn8ppneIiR7r7bH4IePJ7fSn8IbP+enuQM3hhV0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="favicon.ico" size="14309">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gTS96nx3Ndc8CXEPcnRCKlz/w2txuJp4XjqBCtkxotE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sistema de Facturacion e Inventario.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Una lista de las versiones de Windows en la que se ha probado esta aplicación y
+           con la que se ha diseñado para que trabaje. Quite la marca de comentario de los elementos adecuados y Windows seleccionará 
+           automáticamente el entorno más compatible. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=LAPTOP-DE-OSCAR\oscar" issuerKeyHash="a3b33190f98eec334954ff61199f81aa12ec9d27" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>H/YhqU1GP/1Vpju/nsiXxN/0tRa4QO/JaD1T7ETrxr8=</DigestValue></Reference></SignedInfo><SignatureValue>cmuaepQqRsGshvRaWA7uROYbY3bEtPlyBlT6fTu38VeoMMYpQDNJSst786knv7UgKuL3tLJaeFDrK3JRbv4t+xVFmwdHFkzlw6zWBOeJ6ohL5yzHptEKN+fv2xZTp1T/BfnNnDXGP/ZBcRhPker1nWMsXaTDuEGCxNwcemjfKzE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xA2yc/L/qkb3kidLShFzIaK5iZiMDFXyBIRTxYrLXRvNyIZ16Mjd7bWcOg0iJAog3HgNcOz+fqRPNWNN27fHCRdQ5rXW/TXXg3vdBo281ygsswEtLhSNPXOBJYMDy9cEz2QXJmwKssMfAwCOWs4Jcq19cPkp6LxabRWeob5BSek=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bfc6eb44ec533d68c9ef40b816b5f4dfc497c89ebf3ba655fd3f464da921f61f" Description="" Url=""><as:assemblyIdentity name="Sistema de Facturacion e Inventario.exe" version="0.5.0.7" publicKeyToken="82f92a72b37e2302" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-DE-OSCAR\oscar</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5JuKEozcV0DvhNjEwpYeyPWudFEMYCh4XYEl1nCfUE4=</DigestValue></Reference></SignedInfo><SignatureValue>dB4sR9dLYKbx6b/pfBkHVf/E5DEKqumUCyFbSwgUjH4zLCyI9alYMNZcxroe5uIWsyh9QtmA4Jl7FWc0NbZRCeFayqDO5/DCgVzxd+7Uq1q3G5IVBtIZ8mNeVpVHVKaF9MNoFdt0N4258Igh6lcMEq6om8m4ptRQ7SiLq+3BodM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xA2yc/L/qkb3kidLShFzIaK5iZiMDFXyBIRTxYrLXRvNyIZ16Mjd7bWcOg0iJAog3HgNcOz+fqRPNWNN27fHCRdQ5rXW/TXXg3vdBo281ygsswEtLhSNPXOBJYMDy9cEz2QXJmwKssMfAwCOWs4Jcq19cPkp6LxabRWeob5BSek=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQa/YZ97/A5pZIb6ruJRmSpDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBEAEUALQBPAFMAQwBBAFIAXABvAHMAYwBhAHIwHhcNMjEwMzIyMjIzODA5WhcNMjIwMzIzMDQzODA5WjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBEAEUALQBPAFMAQwBBAFIAXABvAHMAYwBhAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMQNsnPy/6pG95InS0oRcyGiuYmYjAxV8gSEU8WKy10bzciGdejI3e21nDoNIiQKINx4DXDs/n6kTzVjTdu3xwkXUOa11v0114N73QaNvNcoLLMBLS4UjT1zgSWDA8vXBM9kFyZsCrLDHwMAjlrOCXKtfXD5Kei8Wm0VnqG+QUnpAgMBAAEwDQYJKoZIhvcNAQELBQADgYEArA8VwXovbtLEDxxh8Ib3GmxGlya0CZcFhmFr0TcNMHG6Hb7eflk7w5OBaef7V9gqgQ485w5thVbwEPjWboy/0OgSDgBKfL7MuGWkRCO2hj0g99oN7eQBrA4cNtqG3RLVIOa5TD0lM0VnSErtoRfimRUrqiBAVxS4lOev6f9FIUE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
