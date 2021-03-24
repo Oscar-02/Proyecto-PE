@@ -65,7 +65,7 @@ namespace Proyecto_PE_Ciclo_I
         private void invlocation_Button_Click(object sender, EventArgs e)
         {
             string ruta = Path.Combine(Application.StartupPath, @"databases\\product.txt");
-            Process.Start("notepad.exe", ruta);
+            Process.Start(ruta);
         }
 
         private void logout_Button_Click(object sender, EventArgs e)
@@ -94,6 +94,50 @@ namespace Proyecto_PE_Ciclo_I
         private void lastBill_Button_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void userlocation_Button_Click(object sender, EventArgs e)
+        {
+            string ruta = Path.Combine(Application.StartupPath, @"databases\\users.txt");
+            Process.Start(ruta);
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void verUbicacionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string ruta = "C:\\facturas";
+            if (!Directory.Exists(ruta))
+            {
+                MessageBox.Show("La ruta de guardado de las facturas no existe.\nEs muy necesario que exista, por lo tanto, esta se creará.", "Abrir ubicacion de facturas", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                DirectoryInfo di = Directory.CreateDirectory(ruta);
+            }
+            Process.Start("explorer.exe", ruta);
+        }
+
+        private void abrirArchivoDeInventarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string ruta = Path.Combine(Application.StartupPath, @"databases\\product.txt");
+            Process.Start(ruta);
+        }
+
+        private void abrirArchivoDeUsuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string ruta = Path.Combine(Application.StartupPath, @"databases\\users.txt");
+            Process.Start(ruta);
+        }
+
+        private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            basicOperations.About();
+        }
+
+        private void verRepositorioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            basicOperations.Repository();
         }
     }
 }
