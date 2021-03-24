@@ -26,5 +26,10 @@ namespace Proyecto_PE_Ciclo_I
         {
 
         }
+
+        private void ver_Label_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

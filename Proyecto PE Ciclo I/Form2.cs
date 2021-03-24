@@ -54,13 +54,12 @@ namespace Proyecto_PE_Ciclo_I
 
         private void info_Button_Click(object sender, EventArgs e)
         {
-            Form form4 = new Form4();
-            form4.Show();
+            basicOperations.About();
         }
 
         private void github_Button_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://github.com/Oscar-02/Proyecto-PE");
+            basicOperations.Repository();
         }
 
         private void invlocation_Button_Click(object sender, EventArgs e)
