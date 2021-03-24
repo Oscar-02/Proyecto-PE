@@ -1,4 +1,6 @@
-<h1>Sistema de Facturacion e Inventario</h1>
+<!DOCTYPE html>
+<h1>:beginner:Sistema de Facturacion e Inventario</h1>
+<p>:arrow_down_small:<strong>Ver mas...</strong></p>
 <h3>Programacion Estructurada 07L <br>Grupo #2</h3>
 <ul>
     <li>Rebeca Alvarenga</li>
@@ -8,8 +10,65 @@
     <li>Jefferson Menjivar</li>
 </ul>
 <hr>
-<p><b>Para instalarlo, es necesario tener <a href = "https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-offline-installer">.NET Framework 4.8 </a></b></p>
-<h4>Informacion del programa</h4>
+<h1>Secciones</h1>
+<ul>
+  <li><a href = "#requisitos">Requisitos</a></li>
+  <li><a href = "#acerca-de">Acerca del Proyecto</a></li>
+  <li><a href = "#devs-only">Solo desarrolladores</a></li>
+</ul>
+<a name = "requisitos"></a>
+<hr>
+<h2>Requisitos</h2>
+<p>Requisitos necesarios:</p>
+<ul>
+  <li><b><a href = "https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-offline-installer">.NET Framework 4.8 </a></b> (requisito importante)</li>
+  <li>Ejecutar el instalador <i>"setup.exe"</i> como administrador</li>
+</ul>
+<p><i>NOTA:</i> el no cumplir uno de estos requisitos pueda que la aplicacion no inicie y/o no se instale correctamente</p>
+  <a name = "acerca-de"></a>
+<hr>
+<h2>Acerca del proyecto</h2>
 <p>
-  En el ultimo commit, fue eliminado el sistema de seguridad OneClick y requisito de instalacion "INSTALADOR DE .NET Framework 4.8", ya que provocaban muchos errores en la instalacion. Aunque se haya eliminado estos requisitos, aun es muy necesario la instalacion de <a href = "https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-offline-installer">.NET Framework 4.8 </a>
+  Version Actual: 0.5 Stable
+  <br>
+  Version estable el cual han sido corregido la mayoria de errores.
+  <br>
+  Esta version contiene 4 de 6 pantallas esperadas y una clase que aloja funciones basicas que se encuentran en todas las pantallas, reduciendo la cantidad de codigo utilizado.
+  En esta version se corrigieron la mayor cantidad de errores en ciertas circunstancias y se implemento funciones extra como:
+  <ul>
+    <li>Error al ingresar un espacio en blanco en cualquiera o ambos campos de la pantalla de <b>Inicio de Sesion</b>, llevando a un <i>ArgumentNullException</i>, la cual hacia        que se cerrara el programa al ocurrir.</li>
+    <li>Se agrego la funcion <b>KeyDown</b>, haciendo que, al presionar Enter (Entrar / Intro) en el campo de contraseña, intente iniciar sesion sin necesidad de presionar
+      el boton <i>Iniciar Sesion.</i></li>
+    <li>Ya que cada usuario tiene un nombre definido y un codigo de vendedor de 4 digitos, este automaticamente despues de iniciar sesion, mostrara en la pantalla inicial el 
+      nombre de la persona que ha iniciado sesion.</li>
+  </ul>
+</p>
+<p>
+  Para ver mas informacion, avance a la seccion <a href = "#devs-only"><b>Solo para desarrollador</b>
+</p>
+<h3>Licencias Utilizadas</h3>
+<p>
+  <b>Abstract Backgrounds</b>, por NichoDesign.<br>
+  Licencia Creative Commons CC BY-NC-SA<br>
+  <b>Multiples Iconos</b>, por Anonimo.<br>
+  Licencia Creative Commons CC BY-NC
+</p>
+<a name = "devs-only"></a>
+<hr>
+<h1>Solo para desarrolladores</h1>
+<p>
+    Accesos directos a documentacion:
+    <ol>
+        <li><a href = "">Manual de Usuario</a></li>
+        <li><a href = "">Calendario del proyecto</a></li>
+        <li><a href = "">Funcionamiento Basico del Proyecto (Video)</a></li>
+        <li><a href = "">Perfil de Proyecto</a></li>
+    </ol>
+</p>
+<p>
+    Para los usuarios, a cada usuario se le ha delimitado un numero de usuario de 4 digitos, con su respectivo nombre y contraseña.<br>
+    Los usuarios con codigo 10XX son usuarios ADMINISTRADORES, los cuales tienen <b>Control Total</b> de la aplicacion. Estos pueden facturar y ver el inventario, asi como
+    ver la localizacion de la carpeta donde se guardan las facturas, la localizacion de la carpeta de inventario y usuarios (<i>"product.txt" y "users.txt"</i>) o ver el 
+    archivo <i>"product.txt"</i> (donde se guarda el inventario).<br>
+    Los usuarios con codigo 20XX son usuarios USUARIOS, los cuales solo pueden facturar, no pueden ver el inventario ni las facturas.
 </p>
