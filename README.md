@@ -48,9 +48,27 @@
 </p>
 <h3>Licencias Utilizadas</h3>
 <p>
-  ![image](https://user-images.githubusercontent.com/70180715/112366109-074adc00-8c9e-11eb-9a00-974520b3f8ad.png)<br>
   <b>Abstract Backgrounds</b>, por NichoDesign.<br>
-  ![image](https://www3.gobiernodecanarias.org/medusa/wiki/images/0/0e/Cc-by-nc-sa_icon.png)<br>
-  Licencia Creative Commons CC-BY-NC-SA<br>
-  
-</p>  
+  Licencia Creative Commons CC BY-NC-SA<br>
+  <b>Multiples Iconos</b>, por Anonimo.<br>
+  Licencia Creative Commons CC BY-NC
+</p>
+<a name = "devs-only"></a>
+<hr>
+<h1>Solo para desarrolladores</h1>
+<p>
+    Accesos directos a documentacion:
+    <ol>
+        <li><a href = "">Manual de Usuario</a></li>
+        <li><a href = "">Calendario del proyecto</a></li>
+        <li><a href = "">Funcionamiento Basico del Proyecto (Video)</a></li>
+        <li><a href = "">Perfil de Proyecto</a></li>
+    </ol>
+</p>
+<p>
+    Para los usuarios, a cada usuario se le ha delimitado un numero de usuario de 4 digitos, con su respectivo nombre y contraseña.<br>
+    Los usuarios con codigo 10XX son usuarios ADMINISTRADORES, los cuales tienen <b>Control Total</b> de la aplicacion. Estos pueden facturar y ver el inventario, asi como
+    ver la localizacion de la carpeta donde se guardan las facturas, la localizacion de la carpeta de inventario y usuarios (<i>"product.txt" y "users.txt"</i>) o ver el 
+    archivo <i>"product.txt"</i> (donde se guarda el inventario).<br>
+    Los usuarios con codigo 20XX son usuarios USUARIOS, los cuales solo pueden facturar, no pueden ver el inventario ni las facturas.
+</p>

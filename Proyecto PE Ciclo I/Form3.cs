@@ -35,6 +35,21 @@ namespace Proyecto_PE_Ciclo_I
 
         }
 
+        private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void acercaDeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            basicOperations.About();
+        }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            basicOperations.Exit();
+        }
+
         private void pass_Box_Enter(object sender, EventArgs e)
         {
         }

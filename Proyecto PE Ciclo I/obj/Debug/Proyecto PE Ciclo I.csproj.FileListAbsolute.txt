@@ -1,0 +1,18 @@
+C:\Users\oscar\Desktop\U - CICLO I\PE LAB\Proyecto PE Ciclo I\Proyecto PE Ciclo I\obj\Debug\Proyecto PE Ciclo I.csprojAssemblyReference.cache
+C:\Users\oscar\Desktop\U - CICLO I\PE LAB\Proyecto PE Ciclo I\Proyecto PE Ciclo I\obj\Debug\Proyecto_PE_Ciclo_I.Form1.resources
+C:\Users\oscar\Desktop\U - CICLO I\PE LAB\Proyecto PE Ciclo I\Proyecto PE Ciclo I\obj\Debug\Proyecto_PE_Ciclo_I.Form2.resources
+C:\Users\oscar\Desktop\U - CICLO I\PE LAB\Proyecto PE Ciclo I\Proyecto PE Ciclo I\obj\Debug\Proyecto_PE_Ciclo_I.Form3.resources
+C:\Users\oscar\Desktop\U - CICLO I\PE LAB\Proyecto PE Ciclo I\Proyecto PE Ciclo I\obj\Debug\Proyecto_PE_Ciclo_I.Properties.Resources.resources
+C:\Users\oscar\Desktop\U - CICLO I\PE LAB\Proyecto PE Ciclo I\Proyecto PE Ciclo I\obj\Debug\Proyecto PE Ciclo I.csproj.GenerateResource.cache
+C:\Users\oscar\Desktop\U - CICLO I\PE LAB\Proyecto PE Ciclo I\Proyecto PE Ciclo I\obj\Debug\Proyecto PE Ciclo I.csproj.CoreCompileInputs.cache
+C:\Users\oscar\Desktop\U - CICLO I\PE LAB\Proyecto PE Ciclo I\Proyecto PE Ciclo I\obj\Debug\Proyecto_PE_Ciclo_I.Form4.resources
+C:\Users\oscar\Desktop\U - CICLO I\PE LAB\Proyecto PE Ciclo I\Proyecto PE Ciclo I\bin\Debug\Sistema de Facturacion e Inventario.exe.config
+C:\Users\oscar\Desktop\U - CICLO I\PE LAB\Proyecto PE Ciclo I\Proyecto PE Ciclo I\bin\Debug\Sistema de Facturacion e Inventario.exe.manifest
+C:\Users\oscar\Desktop\U - CICLO I\PE LAB\Proyecto PE Ciclo I\Proyecto PE Ciclo I\bin\Debug\Sistema de Facturacion e Inventario.application
+C:\Users\oscar\Desktop\U - CICLO I\PE LAB\Proyecto PE Ciclo I\Proyecto PE Ciclo I\bin\Debug\Sistema de Facturacion e Inventario.exe
+C:\Users\oscar\Desktop\U - CICLO I\PE LAB\Proyecto PE Ciclo I\Proyecto PE Ciclo I\bin\Debug\Sistema de Facturacion e Inventario.pdb
+C:\Users\oscar\Desktop\U - CICLO I\PE LAB\Proyecto PE Ciclo I\Proyecto PE Ciclo I\obj\Debug\Sistema de Facturacion e Inventario.exe.manifest
+C:\Users\oscar\Desktop\U - CICLO I\PE LAB\Proyecto PE Ciclo I\Proyecto PE Ciclo I\obj\Debug\Sistema de Facturacion e Inventario.application
+C:\Users\oscar\Desktop\U - CICLO I\PE LAB\Proyecto PE Ciclo I\Proyecto PE Ciclo I\obj\Debug\Sistema de Facturacion e Inventario.exe
+C:\Users\oscar\Desktop\U - CICLO I\PE LAB\Proyecto PE Ciclo I\Proyecto PE Ciclo I\obj\Debug\Sistema de Facturacion e Inventario.pdb
+C:\Users\oscar\Desktop\U - CICLO I\PE LAB\Proyecto PE Ciclo I\Proyecto PE Ciclo I\obj\Debug\Sistema de Facturacion e Inventario.TrustInfo.xml
