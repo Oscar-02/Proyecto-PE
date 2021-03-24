@@ -1,2 +1,56 @@
-# Proyecto-PE
-Proyecto Programación Estructurada
+<!DOCTYPE html>
+<h1>:beginner:Sistema de Facturacion e Inventario</h1>
+<p>:arrow_down_small:<strong>Ver mas...</strong></p>
+<h3>Programacion Estructurada 07L <br>Grupo #2</h3>
+<ul>
+    <li>Rebeca Alvarenga</li>
+    <li>Oscar Cañas</li>
+    <li>Hugo Ortiz</li>
+    <li>Geovanny Pineda</li>
+    <li>Jefferson Menjivar</li>
+</ul>
+<hr>
+<h1>Secciones</h1>
+<ul>
+  <li><a href = "#requisitos">Requisitos</a></li>
+  <li><a href = "#acerca-de">Acerca del Proyecto</a></li>
+  <li><a href = "#devs-only">Solo desarrolladores</a></li>
+</ul>
+<a name = "requisitos"></a>
+<hr>
+<h2>Requisitos</h2>
+<p>Requisitos necesarios:</p>
+<ul>
+  <li><b><a href = "https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net48-offline-installer">.NET Framework 4.8 </a></b> (requisito importante)</li>
+  <li>Ejecutar el instalador <i>"setup.exe"</i> como administrador</li>
+</ul>
+<p><i>NOTA:</i> el no cumplir uno de estos requisitos pueda que la aplicacion no inicie y/o no se instale correctamente</p>
+  <a name = "acerca-de"></a>
+<hr>
+<h2>Acerca del proyecto</h2>
+<p>
+  Version Actual: 0.5 Stable
+  <br>
+  Version estable el cual han sido corregido la mayoria de errores.
+  <br>
+  Esta version contiene 4 de 6 pantallas esperadas y una clase que aloja funciones basicas que se encuentran en todas las pantallas, reduciendo la cantidad de codigo utilizado.
+  En esta version se corrigieron la mayor cantidad de errores en ciertas circunstancias y se implemento funciones extra como:
+  <ul>
+    <li>Error al ingresar un espacio en blanco en cualquiera o ambos campos de la pantalla de <b>Inicio de Sesion</b>, llevando a un <i>ArgumentNullException</i>, la cual hacia        que se cerrara el programa al ocurrir.</li>
+    <li>Se agrego la funcion <b>KeyDown</b>, haciendo que, al presionar Enter (Entrar / Intro) en el campo de contraseña, intente iniciar sesion sin necesidad de presionar
+      el boton <i>Iniciar Sesion.</i></li>
+    <li>Ya que cada usuario tiene un nombre definido y un codigo de vendedor de 4 digitos, este automaticamente despues de iniciar sesion, mostrara en la pantalla inicial el 
+      nombre de la persona que ha iniciado sesion.</li>
+  </ul>
+</p>
+<p>
+  Para ver mas informacion, avance a la seccion <a href = "#devs-only"><b>Solo para desarrollador</b>
+</p>
+<h3>Licencias Utilizadas</h3>
+<p>
+  ![image](https://user-images.githubusercontent.com/70180715/112366109-074adc00-8c9e-11eb-9a00-974520b3f8ad.png)<br>
+  <b>Abstract Backgrounds</b>, por NichoDesign.<br>
+  ![image](https://www3.gobiernodecanarias.org/medusa/wiki/images/0/0e/Cc-by-nc-sa_icon.png)<br>
+  Licencia Creative Commons CC-BY-NC-SA<br>
+  
+</p>  
