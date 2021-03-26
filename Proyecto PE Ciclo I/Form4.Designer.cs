@@ -132,9 +132,9 @@ namespace Proyecto_PE_Ciclo_I
             this.ver_Label.Name = "ver_Label";
             this.ver_Label.Size = new System.Drawing.Size(242, 119);
             this.ver_Label.TabIndex = 7;
-            this.ver_Label.Text = "v0.51 Beta \r\n(Programa en proceso de desarrollo)\r\n\r\nNOTA. Las versiones se toman " +
-    "en \r\ncuenta basandose en el numero de \r\ncommit que existen en el\r\nrepositorio de" +
-    " GitHub.";
+            this.ver_Label.Text = "v0.51 Stable \r\n(Programa en proceso de desarrollo)\r\n\r\nNOTA. Las versiones se toma" +
+    "n en \r\ncuenta basandose en el numero de \r\ncommit que existen en el\r\nrepositorio " +
+    "de GitHub.";
             this.ver_Label.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.ver_Label.Click += new System.EventHandler(this.ver_Label_Click);
             // 

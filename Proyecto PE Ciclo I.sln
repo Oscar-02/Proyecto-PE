@@ -18,6 +18,7 @@ Global
 		{EDEBD185-5BF3-47AB-ABE0-BDA20F3F4246}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDEBD185-5BF3-47AB-ABE0-BDA20F3F4246}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F19E3209-C134-4479-87EC-E896CA44B04C}.Debug|Any CPU.ActiveCfg = Debug
+		{F19E3209-C134-4479-87EC-E896CA44B04C}.Debug|Any CPU.Build.0 = Debug
 		{F19E3209-C134-4479-87EC-E896CA44B04C}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
@@ -25,9 +26,5 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2B3FFCAC-224E-4BE0-B34C-EBB32B4ECC5D}
-	EndGlobalSection
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 EndGlobal
