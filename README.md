@@ -13,6 +13,7 @@
 <h1>Secciones</h1>
 <ul>
   <li><a href = "#requisitos">Requisitos</a></li>
+  <li><a href = "#instalar">Instaladores</a></li>
   <li><a href = "#acerca-de">Acerca del Proyecto</a></li>
   <li><a href = "#devs-only">Solo desarrolladores</a></li>
 </ul>
@@ -25,6 +26,13 @@
   <li>Ejecutar el instalador <i>"setup.exe"</i> como administrador</li>
 </ul>
 <p><i>NOTA:</i> el no cumplir uno de estos requisitos pueda que la aplicacion no inicie y/o no se instale correctamente</p>
+<a name = "instalar"></a>
+<hr>
+<h2>Instaladores</h2>
+<p>
+    <b>Instalador .msi: </b><a href = "https://github.com/Oscar-02/Proyecto-PE/raw/master/setup/Debug/setup.msi">Descargar</a><br>
+    <b>Instalador .exe: </b><a href = "https://github.com/Oscar-02/Proyecto-PE/raw/master/setup/Debug/setup.exe">Descargar</a><br>
+</p>
   <a name = "acerca-de"></a>
 <hr>
 <h2>Acerca del proyecto</h2>
