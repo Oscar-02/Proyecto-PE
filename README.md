@@ -29,7 +29,7 @@
 <hr>
 <h2>Acerca del proyecto</h2>
 <p>
-  Version Actual: 0.51 Beta
+  Version Actual: 0.51 Stable
   <br>
   Version estable el cual han sido corregido la mayoria de errores.
   <br>
