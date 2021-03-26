@@ -29,7 +29,7 @@
 <hr>
 <h2>Acerca del proyecto</h2>
 <p>
-  Version Actual: 0.5 Stable
+  Version Actual: 0.51 Alpha
   <br>
   Version estable el cual han sido corregido la mayoria de errores.
   <br>
@@ -41,6 +41,7 @@
       el boton <i>Iniciar Sesion.</i></li>
     <li>Ya que cada usuario tiene un nombre definido y un codigo de vendedor de 4 digitos, este automaticamente despues de iniciar sesion, mostrara en la pantalla inicial el 
       nombre de la persona que ha iniciado sesion.</li>
+    <li><del>Se ha añadido un instalador hecho a base del empaquetador incluido en Visual Studio <i>ClickOnce</i></del></li>
   </ul>
 </p>
 <p>
