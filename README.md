@@ -29,18 +29,14 @@
 <hr>
 <h2>Acerca del proyecto</h2>
 <p>
-  Version Actual: 0.5 Stable
+  Version Actual: 0.51 Beta
   <br>
   Version estable el cual han sido corregido la mayoria de errores.
   <br>
   Esta version contiene 4 de 6 pantallas esperadas y una clase que aloja funciones basicas que se encuentran en todas las pantallas, reduciendo la cantidad de codigo utilizado.
   En esta version se corrigieron la mayor cantidad de errores en ciertas circunstancias y se implemento funciones extra como:
   <ul>
-    <li>Error al ingresar un espacio en blanco en cualquiera o ambos campos de la pantalla de <b>Inicio de Sesion</b>, llevando a un <i>ArgumentNullException</i>, la cual hacia        que se cerrara el programa al ocurrir.</li>
-    <li>Se agrego la funcion <b>KeyDown</b>, haciendo que, al presionar Enter (Entrar / Intro) en el campo de contraseña, intente iniciar sesion sin necesidad de presionar
-      el boton <i>Iniciar Sesion.</i></li>
-    <li>Ya que cada usuario tiene un nombre definido y un codigo de vendedor de 4 digitos, este automaticamente despues de iniciar sesion, mostrara en la pantalla inicial el 
-      nombre de la persona que ha iniciado sesion.</li>
+    <li>Fuente de instalador cambiado. Ahora se utiliza la extension <a href = "https://marketplace.visualstudio.com/items?itemName=VisualStudioClient.MicrosoftVisualStudio2017InstallerProjects">Visual Studio Installer Projects</a> como empaquetador en lugar del publicador ClickOnce de Visual Studio (el  problema surgido es el manifiesto del proyecto. Luego de instalar .NET Framework 4.8 seguia la instalacion de la aplicacion pero, debido a una incompatibilidad del manifiesto con las propiedades del proyecto original)</li>
   </ul>
 </p>
 <p>
