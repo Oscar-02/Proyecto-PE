@@ -39,10 +39,11 @@ namespace Proyecto_PE_Ciclo_I
             this.udb_Pic = new System.Windows.Forms.PictureBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.verRepositorioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.verManualDeUsuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.udb_Pic)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -139,18 +140,10 @@ namespace Proyecto_PE_Ciclo_I
             // inicioToolStripMenuItem
             // 
             this.inicioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.acercaDeToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
             this.inicioToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
             this.inicioToolStripMenuItem.Text = "Inicio";
-            // 
-            // acercaDeToolStripMenuItem
-            // 
-            this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.acercaDeToolStripMenuItem.Text = "Acerca de...";
-            this.acercaDeToolStripMenuItem.Click += new System.EventHandler(this.acercaDeToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 
@@ -162,17 +155,33 @@ namespace Proyecto_PE_Ciclo_I
             // ayudaToolStripMenuItem
             // 
             this.ayudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.verRepositorioToolStripMenuItem});
+            this.acercaDeToolStripMenuItem,
+            this.verRepositorioToolStripMenuItem,
+            this.verManualDeUsuarioToolStripMenuItem});
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
-            this.ayudaToolStripMenuItem.Click += new System.EventHandler(this.ayudaToolStripMenuItem_Click);
+            // 
+            // acercaDeToolStripMenuItem
+            // 
+            this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.acercaDeToolStripMenuItem.Text = "Acerca de...";
+            this.acercaDeToolStripMenuItem.Click += new System.EventHandler(this.acercaDeToolStripMenuItem_Click);
             // 
             // verRepositorioToolStripMenuItem
             // 
             this.verRepositorioToolStripMenuItem.Name = "verRepositorioToolStripMenuItem";
-            this.verRepositorioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.verRepositorioToolStripMenuItem.Text = "Ver repositorio";
+            this.verRepositorioToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.verRepositorioToolStripMenuItem.Text = "Ver Repositorio";
+            this.verRepositorioToolStripMenuItem.Click += new System.EventHandler(this.verRepositorioToolStripMenuItem_Click);
+            // 
+            // verManualDeUsuarioToolStripMenuItem
+            // 
+            this.verManualDeUsuarioToolStripMenuItem.Name = "verManualDeUsuarioToolStripMenuItem";
+            this.verManualDeUsuarioToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.verManualDeUsuarioToolStripMenuItem.Text = "Ver Manual de Usuario";
+            this.verManualDeUsuarioToolStripMenuItem.Click += new System.EventHandler(this.verManualDeUsuarioToolStripMenuItem_Click);
             // 
             // Form3
             // 
@@ -214,9 +223,10 @@ namespace Proyecto_PE_Ciclo_I
         private System.Windows.Forms.Label pass_Label;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem inicioToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem verRepositorioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem verManualDeUsuarioToolStripMenuItem;
     }
 }
