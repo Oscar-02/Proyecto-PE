@@ -31,7 +31,7 @@
 <h2>Instaladores</h2>
 <p>
     <b>Instalador .msi: </b><a href = "https://github.com/Oscar-02/Proyecto-PE/raw/master/setup/Debug/setup.msi">Descargar</a><br>
-    <b>Instalador .exe: </b><a href = "https://github.com/Oscar-02/Proyecto-PE/raw/master/setup/Debug/setup.exe">Descargar</a><br>
+    (No se incluye el instalador .exe debido a que cumple la misma funcion del .msi)
 </p>
   <a name = "acerca-de"></a>
 <hr>
