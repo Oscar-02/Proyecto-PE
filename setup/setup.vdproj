@@ -68,6 +68,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -183,7 +191,7 @@
             {
             "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
             "Name" = "8:#1925"
-            "AlwaysCreate" = "11:FALSE"
+            "AlwaysCreate" = "11:TRUE"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Property" = "8:TARGETDIR"
@@ -230,7 +238,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Sistema de Facturacion e Inventario"
         "ProductCode" = "8:{3100FFB0-EB9D-4026-A9CE-F32D61BE8826}"
-        "PackageCode" = "8:{F517DF1A-32A5-4CBD-A48D-7BCD504F0590}"
+        "PackageCode" = "8:{8CB36EA3-528E-49ED-A3EF-9C3E5D2A9583}"
         "UpgradeCode" = "8:{E3BBA359-9C72-41A4-BFF8-80ED91E486B1}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -358,9 +366,9 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_E40D1D7C73E0477797AE8AA3DCEF4001"
+            "Target" = "8:_354C2BA531ED4053B199994D811A4517"
             "Folder" = "8:_E40D1D7C73E0477797AE8AA3DCEF4001"
-            "WorkingFolder" = "8:_E40D1D7C73E0477797AE8AA3DCEF4001"
+            "WorkingFolder" = "8:_354C2BA531ED4053B199994D811A4517"
             "Icon" = "8:_7C078096BF104A1A941B10779BC87BB3"
             "Feature" = "8:"
             }
@@ -372,9 +380,9 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_5F95B1006EF54C269F4DEFA8BDB642CB"
+            "Target" = "8:_354C2BA531ED4053B199994D811A4517"
             "Folder" = "8:_5F95B1006EF54C269F4DEFA8BDB642CB"
-            "WorkingFolder" = "8:_5F95B1006EF54C269F4DEFA8BDB642CB"
+            "WorkingFolder" = "8:_354C2BA531ED4053B199994D811A4517"
             "Icon" = "8:_7C078096BF104A1A941B10779BC87BB3"
             "Feature" = "8:"
             }
