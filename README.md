@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <h1>:beginner:Sistema de Facturacion e Inventario (Descontinuado)</h1>
 <p>:arrow_down_small:<strong>Ver mas...</strong><b>
-(Esta version ha sido actualizada a un nuevo proyecto WPF ubicado <a href = "https://github.com/Oscar-02/Proyecto.git">en este repositorio</a>.
+(Esta version ha sido actualizada a un nuevo proyecto WPF ubicado <a href = "https://github.com/Oscar-02/Proyecto.git">en este repositorio</a>)
 </p>
 <h3>Programacion Estructurada 07L <br>Grupo #2</h3>
 <ul>
